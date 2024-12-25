@@ -18,7 +18,10 @@ def test1_count_vowels():
     ('Город', 2),
     ('Bird', 1),
     ('Река', 2),
-    ('Computer', 3)
+    ('Computer', 3),
+    ('Шмрц', 0)
 ])
 def test2_count_vowels(text, expected):
     assert count_vowels(text) == expected
+
+# Чешский мотогонщик Якуб Шмрц
