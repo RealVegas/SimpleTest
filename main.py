@@ -12,6 +12,6 @@ def count_vowels(some_text: str) -> int:
 
 
 # Пример использования
-user_text: str = input('Введите слово, словосочетание или предложение: ')
-vowels_amount: int = count_vowels(user_text)
-print(f'Количество гласных букв в тексте: {vowels_amount}')
+# user_text: str = input('Введите слово, словосочетание или предложение: ')
+# vowels_amount: int = count_vowels(user_text)
+# print(f'Количество гласных букв в тексте: {vowels_amount}')
