@@ -1,7 +1,9 @@
 def count_vowels(some_text: str) -> int:
 
-    vowels: str = 'аеёиоуыэюяaeiouy'
+    if some_text == '':
+        return 0
 
+    vowels: str = 'аеёиоуыэюяaeiouy'
     vowel_count: int = 0
 
     for char in some_text.lower():
